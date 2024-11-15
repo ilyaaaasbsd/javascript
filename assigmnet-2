@@ -1,0 +1,11 @@
+document.querySelectorAll('figure').forEach((fig) => {
+  fig.addEventListener('mouseover', () => {
+    // Code pour changer l'apparence lors du survol
+  });
+
+  fig.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      // Code pour activer une action lors de l'appui sur "Enter"
+    }
+  });
+});
